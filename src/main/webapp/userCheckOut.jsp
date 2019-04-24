@@ -7,22 +7,59 @@
 </head>
 <body>
 
-<form method="post" >
+<div class="container-fluid ml-2">
+    <div class="center-block">
+        <form method="post" >
 
-    <br/><br/>
-    Name:  <c:out value = "${pet.name}"/><br/><br/>
+            <img src="images/petimage.jpg"  style="align-items: center" width="100%" height="300px" class="center"/><br/>
+            <table border = "1"  align="center" width="60%" cellpadding="5" class="table-light">
+                <tr><td><h3 style="color:black;">Checkout</h3></td><td></td></tr>
 
-    Color: <c:out value = "${pet.color}"/><br/><br/>
-    Price: <c:out value = "${pet.price}"/><br/><br/>
 
-        <label>Breed: </label>
-    <c:out value = "${pet.breed}"/>
+                <tr>
+                    <th>Name: </th>
+                    <td width="50%">
+                        <c:out value = "${pet.name}"/>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Color: </th>
+                    <td width="50%">
+                        <c:out value = "${pet.color}"/>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Price: </th>
+                    <td width="50%">
+                        <c:out value = "${pet.price}"/>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Breed: </th>
+                    <td width="50%">
+                        <c:out value = "${pet.breed}"/>
+                    </td>
+                </tr>
 
-    <h4>Click  Order To Complete the Purchage.</h4>
-    <h4>Please Call before coming to Pick up Your Order.</h4>
+                <caption>
+                    <h4>Click  Order To Complete the Purchage.</h4>
+                    <h4>Please Call before coming to Pick up Your Order.</h4>
+                </caption>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" value="Order" />
+                    </td>
 
-    <br/><br/>
-    <input  type="submit" value="Order">
-</form>
+                </tr>
+
+
+
+            </table>
+            <div class="footer-copyright text-center py-3">© 2019 Copyright:Pet Shop
+
+            </div>
+        </form>
+    </div>
+</div>
 </body>
 </html>

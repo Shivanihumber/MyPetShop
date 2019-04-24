@@ -6,37 +6,28 @@
 <head>
     <meta charset="UTF-8">
     <title>Pet</title>
-    <style>
-        main{
-            margin: 0 auto;
-            margin-top: 30px;
-            padding: 20px;
-            width: 30%;
-            background-color: white;
-            border-radius: 10px;
-        }  body{
-               margin: 0;
-               padding: 0;
-               border: 0;
 
-               background-size: 100% ;
-           }
-
-
-    </style>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
 <main>
-    <h1>
+    <div align = "center">
+
+        <img src="images/petimage.jpg"  style="align-items: center" width="100%" height="300px" class="center"/><br/>
+
+    <h1 align="center">
         Fill in the Form to Add Pet
     </h1>
-
+    </div>
     <h2>
-        <a href="new">Add New Item</a>
-        &nbsp;&nbsp;&nbsp;
-        <a  href="list">List All Items</a>
-        &nbsp;&nbsp;&nbsp;
+        <caption align="center">
+            <h2 align="center">
+                <a href="new">Add Pet</a>
+                &nbsp;&nbsp;&nbsp;
+                <a  href="list">List Pets</a>
+                &nbsp;&nbsp;&nbsp;
+            </h2>
+        </caption>
 
        <!-- <a  style="text-align: center"  href="listById">List By Id</a>-->
     </h2>
@@ -44,22 +35,27 @@
     <div class="container-fluid ml-2">
         <div class="center-block">
             <form method="post" action="insert">
-                <br/>
-                Gender: <input type="text" name="name"/><br/><br/>
+    <table border="1" cellpadding="5" width = "30%" align="center"  class="table-light">
 
-                Color: <input  type="text" name="color"/><br/><br/>
-                Price: <input type="text" name="price"/><br/><br/>
-                <div class="form-group">
-                    <label for="breed">Breed: </label>
-                    <select class="form-control" id="breed" name="breed" size="1">
-                        <% for (Breed breed :
-                                Breed.values()) { %>
-                        <option><%out.print(breed);%></option>
-                        <% } %>
-                    </select> <br/>
-                </div>
-                <br/><br/>
-                <input  type="submit" value="Add Pet">
+        <tr><td align="right"> Gender:</td><td><input type="text" name="name" size="30"></td></tr>
+        <tr><td align="right"> Color :</td><td><input type="text" name="color" size="30"></td></tr>
+        <tr><td align="right"> Price :</td><td><input type="text" name="price" size="30"></td></tr>
+        <tr><td align="right">  <label for="breed">Breed: </label></td>
+            <td>
+                <select class="form-control" id="breed" name="breed" size="1">
+                    <% for (Breed breed :
+                            Breed.values()) { %>
+                    <option><%out.print(breed);%></option>
+                    <% } %>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <input type="submit" value="Add Pet" />
+            </td>
+        </tr>
+    </table>
             </form>
         </div>
     </div>
