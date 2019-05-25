@@ -23,7 +23,7 @@ public class Pet {
         this.price = price;
     }
 
-    public Pet(){
+    public Pet() {
 
     }
 
