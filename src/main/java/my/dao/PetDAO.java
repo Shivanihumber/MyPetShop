@@ -6,9 +6,6 @@ import javax.ejb.Stateless;
 import javax.persistence.*;
 import java.util.List;
 
-/**
- * DAO
- */
 @Stateless
 public class PetDAO extends DAO {
 
