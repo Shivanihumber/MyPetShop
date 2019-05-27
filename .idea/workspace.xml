@@ -199,7 +199,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="width" value="1366" />
     <option name="height" value="768" />
   </component>
@@ -292,7 +292,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556146000325" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558970530858" />
     <property name="last_opened_file_path" value="C:/Shivani/semester4/Dis Computing using Java/lab3-4-employee" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -419,12 +419,12 @@
       <workItem from="1556064253076" duration="454000" />
       <workItem from="1556068776795" duration="13427000" />
       <workItem from="1556892953855" duration="1084000" />
-      <workItem from="1558822363190" duration="608000" />
+      <workItem from="1558822363190" duration="1017000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82666000" />
+    <option name="totallyTimeSpent" value="83075000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
