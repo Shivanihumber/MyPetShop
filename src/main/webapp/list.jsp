@@ -10,8 +10,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
+<img src="images/petimage.jpg"  style="align-items: center" width="100%" height="300px" class="center"/><br/>
 
-<table class="table-dark" border = "1" width = "100%">
+<table class="table-dark" border = "1" width = "100%" cellpadding="3">
     <tr>
         <th>Pet Gender</th>
         <th>Pet Breed</th>

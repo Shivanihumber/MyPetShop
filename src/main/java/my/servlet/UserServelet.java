@@ -31,11 +31,12 @@ public class UserServelet extends HttpServlet {
 
 
         if (userName.isEmpty()) {
-            validationMessage = "Please specify User name!";
+            validationMessage = "Please specify User Name,Password,Email!";
             req.setAttribute("validationMessage", validationMessage);
-            url += "/register.jsp";
+            url += "/index.jsp";
             getServletContext().getRequestDispatcher(url).forward(req, resp);
-        } else {
+        }
+        else {
             User newUser = new User(userName,userPassword ,userEmail);
             //UserDAO u = new UserDAO();
               u.addUser(newUser);

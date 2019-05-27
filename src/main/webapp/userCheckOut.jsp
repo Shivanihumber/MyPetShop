@@ -55,11 +55,16 @@
 
 
             </table>
-            <div class="footer-copyright text-center py-3">© 2019 Copyright:Pet Shop
 
-            </div>
         </form>
     </div>
 </div>
+<div align="center">
+    <form action="login.jsp"  >
+        <input type="submit" value="Log Out">
+    </form></div>
 </body>
+<div class="footer-copyright text-center py-3">© 2019 Copyright:Pet Shop
+
+</div>
 </html>

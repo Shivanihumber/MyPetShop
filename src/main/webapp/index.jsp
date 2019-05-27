@@ -15,11 +15,12 @@
 </head>
 <body>
 
-<p class="ml-1"><i class="text-danger">${validationMessage}</i></p>
+
 <div class="container-fluid ml-2">
     <div class="center-block">
 <form method="post" action="users">
     <img src="images/petimage.jpg"  style="align-items: center" width="100%" height="300px" class="center"/><br/>
+    <div align="center"><p class="ml-1"><i class="text-danger">${validationMessage}</i></p></div>
     <table border = "1" width = "40%" align="center"  class="table-light">
         <tr><td><h3 style="color:black;">Register Page</h3></td><td></td></tr>
 
@@ -33,5 +34,6 @@
     </div>
 </div>
 </body>
+<div class="footer-copyright text-center py-3">© 2019 Copyright:Pet Shop</div>
 </html>
 </html>
